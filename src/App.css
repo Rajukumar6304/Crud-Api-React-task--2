@@ -48,3 +48,23 @@
     transform: rotate(360deg);
   }
 }
+
+.createComment_main_div{
+  width:100%;
+  /* height: 100vh; */
+  background-color: yellow;
+}
+.createComment{
+  width:50%;
+  height: 55vh;
+  background-color: aquamarine;
+  margin: auto;
+}
+input{
+  height: 30px;
+}
+.usertodo_createbg{
+  margin-top: 50px;
+  background-color: gray;
+  width: auto;
+}
