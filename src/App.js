@@ -18,7 +18,7 @@ import { Redirect } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/Crud-Api-React-task--2">
         <ResponsiveAppBar />
 
         <Switch>
