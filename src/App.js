@@ -6,7 +6,7 @@ import Posts from "./components/Posts";
 import ResponsiveAppBar from "./components/Appbar";
 
 import { Routes, Route } from "react-router-dom";
-import { BrowserRouter, Switch } from "react-router-dom";
+import { BrowserRouter, HashRouter, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import React from "react";
 import Comments from "./components/Comments";
