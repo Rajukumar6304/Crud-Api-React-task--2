@@ -18,7 +18,7 @@ import { Redirect } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/Crud-Api-React-task--2">
+      <HashRouter>
         <ResponsiveAppBar />
 
         <Switch>
@@ -43,7 +43,7 @@ function App() {
           </Route>
           <Redirect from="/" to="/Users" />
         </Switch>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
